@@ -17,6 +17,8 @@ public class Main {
         Phone myPhone = new Phone();
         Phone phone1 = new Phone();
         Phone phone2 = new Phone();
+
+
         System.out.println(myPhone.enrolment(network));
         System.out.println(phone1.enrolment(network));
         System.out.println(phone2.enrolment(network));
