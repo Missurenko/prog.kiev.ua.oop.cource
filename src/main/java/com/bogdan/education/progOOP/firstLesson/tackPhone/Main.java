@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
  */
 public class Main {
     public static void main(String[] arg) throws IOException {
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         Network network = new Network("kyivstar", "Not bad",
