@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
  */
 public class Main {
     public static void main(String[] arg) throws IOException {
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         Network network = new Network("kyivstar", "Not bad",
@@ -16,6 +17,8 @@ public class Main {
         Phone myPhone = new Phone();
         Phone phone1 = new Phone();
         Phone phone2 = new Phone();
+
+
         System.out.println(myPhone.enrolment(network));
         System.out.println(phone1.enrolment(network));
         System.out.println(phone2.enrolment(network));
