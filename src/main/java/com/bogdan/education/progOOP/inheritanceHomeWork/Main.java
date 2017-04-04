@@ -25,7 +25,6 @@ public class Main {
             continued = reader.readLine();
         } while (!continued.equals("end"));
 
-
         Shape rectangle = new Rectangle(10, 10, 10, 15, 15, 10, 20, 20);
         System.out.println(rectangle);
         Shape square = new Square(-10, -10, -10, -15, -15, -10, -20, -20);
