@@ -11,8 +11,8 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String continued = "";
-        String userWord = "";
+        String continued ;
+        String userWord ;
         Shape triangle = new Triangle();
         do {
             System.out.println("Enter your figure: triangle, rectangle or square");
