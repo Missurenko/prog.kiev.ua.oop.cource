@@ -23,18 +23,21 @@ public class Square extends Shape {
 
     @Override
     public double getPerimetr() {
-        Point point = new Point();
-        return 4 * point.distancePointtoPoint(a, b);
+
+        return 4 * a.distancePointtoPoint(b);
     }
 
     @Override
     public double getArea() {
-        Point point = new Point();
-        return point.distancePointtoPoint(a, b) * point.distancePointtoPoint(a, b);
+
+        return a.distancePointtoPoint(b) * b.distancePointtoPoint(c);
     }
 
+
+
     public String toString() {
-        return "Square. Side A " + a + " Side B " + b + " Side C " + c + " Side D " + d + " Area " + getArea()
-                + " Perimeter " + getPerimetr();
+        return "Square. Side A " + a + " Side B " + b + " Side C " + c + " Side D " + d + " Area " +
+                String.format("%.2f", getArea()) + " Perimeter "
+                + String.format("%.2f", getPerimetr());
     }
 }

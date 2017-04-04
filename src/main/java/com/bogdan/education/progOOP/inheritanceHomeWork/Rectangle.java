@@ -1,7 +1,6 @@
 package com.bogdan.education.progOOP.inheritanceHomeWork;
 
 
-
 /**
  * Created by Admin on 30.03.17.
  */
@@ -23,20 +22,21 @@ public class Rectangle extends Shape {
 
     @Override
     public double getPerimetr() {
-        Point point = new Point();
-        return 2 * (point.distancePointtoPoint(a, b) + point.distancePointtoPoint(b, c));
+
+        return 2 * (a.distancePointtoPoint(b) + d.distancePointtoPoint(a));
     }
 
     @Override
     public double getArea() {
-        Point point = new Point();
-        return point.distancePointtoPoint(a, b) * point.distancePointtoPoint(b, c);
+
+        return a.distancePointtoPoint(b) * b.distancePointtoPoint(c);
     }
 
     @Override
     public String toString() {
-        return "Rectangle. Side A " + a + " Side B " + b + " Side C " + c + " Side D " + d + " Area " + getArea()
-                + " Perimeter " + getPerimetr();
+        return "Rectangle. Side A " + a + " Side B " + b + " Side C " + c + " Side D " + d + " Area " +
+                String.format("%.2f", getArea()) + " Perimeter "
+                + String.format("%.2f", getPerimetr());
     }
 
 }

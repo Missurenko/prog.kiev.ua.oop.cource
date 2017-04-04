@@ -6,7 +6,6 @@ import lombok.Setter;
 /**
  * Created by Admin on 25.03.17.
  */
-
 @Getter
 @Setter
 public class Cat {
@@ -38,5 +37,6 @@ public class Cat {
                 ", weight=" + weight +
                 '}';
     }
+
 
 }
