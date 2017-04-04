@@ -37,6 +37,8 @@ dependencies {
 	compile group: 'org.projectlombok', name: 'lombok', version: '1.16.14'
 	// https://mvnrepository.com/artifact/org.apache.derby/derby
 
+// https://mvnrepository.com/artifact/junit/junit
+	testCompile group: 'junit', name: 'junit', version: '4.12'
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	compile group: 'org.apache.derby', name: 'derby', version: '10.13.1.1'

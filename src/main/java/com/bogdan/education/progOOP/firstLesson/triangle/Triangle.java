@@ -6,41 +6,41 @@ import java.text.NumberFormat;
  * Created by Admin on 29.03.17.
  */
 public class Triangle {
-    private double pointA;
-    private double pointB;
-    private double pointC;
+    private final double pointA;
+    private final double pointB;
+    private final double pointC;
+    private Double areaTriangle;
+
+
+    public Triangle(double pointA, double pointB, double pointC) {
+
+        this.pointA = pointA;
+        this.pointB = pointB;
+        this.pointC = pointC;
+    }
 
     public double getPointA() {
         return pointA;
-    }
-
-    public void setPointA(double pointA) {
-        this.pointA = pointA;
     }
 
     public double getPointB() {
         return pointB;
     }
 
-    public void setPointB(double pointB) {
-        this.pointB = pointB;
-    }
-
     public double getPointC() {
         return pointC;
     }
 
-    public void setPointC(double pointC) {
-        this.pointC = pointC;
+    public double areaTriangle() {
+        if (areaTriangle == null) {
+            double p = (pointA + pointB + pointC) / 2;
+            areaTriangle = Math.sqrt(p * (p - pointA) * (p - pointB) * (p - pointC));
+        }
+        return areaTriangle;
     }
 
-    public double areaTriangle(double a, double b, double c) {
-        double p = (a + b + c) / 2;
-        return Math.sqrt(p * (p - a) * (p - b) * (p - c));
-    }
-
-    public String areaTriangleTostring(double areaTriangle) {
-        return NumberFormat.getInstance().format(areaTriangle);
+    public String areaTriangleTostring() {
+        return NumberFormat.getInstance().format(areaTriangle());
     }
 
 

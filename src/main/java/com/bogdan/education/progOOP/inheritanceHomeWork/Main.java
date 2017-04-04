@@ -46,7 +46,7 @@ public class Main {
 
     private static TreeMap scanLocation(int numberPoint) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        TreeMap<String, Double> location = new TreeMap();
+        TreeMap<String, Double> location = new TreeMap<>();
         for (int i = 0; i < numberPoint; i++) {
             boolean x = true;
             do {
