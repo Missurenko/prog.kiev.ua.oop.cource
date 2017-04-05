@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.firstLesson.cat;
+package com.bogdan.education.progOOP.task1.cat;
 
 import java.io.BufferedReader;
 import java.io.IOException;

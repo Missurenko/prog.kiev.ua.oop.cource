@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.firstLesson.cat;
+package com.bogdan.education.progOOP.task1.cat;
 
 import lombok.Getter;
 import lombok.Setter;

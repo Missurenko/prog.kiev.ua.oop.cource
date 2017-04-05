@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.inheritanceHomeWork;
+package com.bogdan.education.progOOP.task2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

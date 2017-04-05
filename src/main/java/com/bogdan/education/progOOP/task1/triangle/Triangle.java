@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.firstLesson.triangle;
+package com.bogdan.education.progOOP.task1.triangle;
 
 import java.text.NumberFormat;
 

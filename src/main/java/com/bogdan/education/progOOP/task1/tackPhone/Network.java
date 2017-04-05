@@ -1,8 +1,5 @@
-package com.bogdan.education.progOOP.firstLesson.tackPhone;
+package com.bogdan.education.progOOP.task1.tackPhone;
 
-
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.ArrayList;
 

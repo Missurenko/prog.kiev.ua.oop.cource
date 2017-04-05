@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.firstLesson.tackPhone;
+package com.bogdan.education.progOOP.task1.tackPhone;
 
 import java.io.BufferedReader;
 import java.io.IOException;

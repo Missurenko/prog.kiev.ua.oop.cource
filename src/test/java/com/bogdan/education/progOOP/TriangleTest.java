@@ -1,6 +1,6 @@
 package com.bogdan.education.progOOP;
 
-import com.bogdan.education.progOOP.firstLesson.triangle.Triangle;
+import com.bogdan.education.progOOP.task1.triangle.Triangle;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

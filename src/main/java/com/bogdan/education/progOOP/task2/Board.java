@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.inheritanceHomeWork;
+package com.bogdan.education.progOOP.task2;
 
 /**
  * Created by Admin on 30.03.17.

@@ -1,4 +1,4 @@
-package com.bogdan.education.progOOP.firstLesson.tackPhone;
+package com.bogdan.education.progOOP.task1.tackPhone;
 
 
 import java.util.ArrayList;
@@ -48,4 +48,5 @@ public class Phone {
         network.setAllNumber(allNum);
         return "Telefon is enrolment. NumberPhone " + numberPhone;
     }
+
 }

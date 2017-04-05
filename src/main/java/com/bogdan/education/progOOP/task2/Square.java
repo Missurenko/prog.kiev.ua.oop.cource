@@ -1,18 +1,19 @@
-package com.bogdan.education.progOOP.inheritanceHomeWork;
+package com.bogdan.education.progOOP.task2;
+
 
 
 /**
  * Created by Admin on 30.03.17.
  */
 
-public class Rectangle extends Shape {
+public class Square extends Shape {
     private Point a;
     private Point b;
     private Point c;
     private Point d;
 
-    public Rectangle(double x, double y, double x1, double y1, double x2, double y2,
-                     double x3, double y3) {
+    public Square(double x, double y, double x1, double y1, double x2, double y2,
+                  double x3, double y3) {
         super();
         this.a = new Point(x, y);
         this.b = new Point(x1, y1);
@@ -23,7 +24,7 @@ public class Rectangle extends Shape {
     @Override
     public double getPerimetr() {
 
-        return 2 * (a.distancePointtoPoint(b) + d.distancePointtoPoint(a));
+        return 4 * a.distancePointtoPoint(b);
     }
 
     @Override
@@ -32,12 +33,11 @@ public class Rectangle extends Shape {
         return a.distancePointtoPoint(b) * b.distancePointtoPoint(c);
     }
 
-    @Override
+
+
     public String toString() {
-        return "Rectangle. Side A " + a + " Side B " + b + " Side C " + c + " Side D " + d + " Area " +
+        return "Square. Side A " + a + " Side B " + b + " Side C " + c + " Side D " + d + " Area " +
                 String.format("%.2f", getArea()) + " Perimeter "
                 + String.format("%.2f", getPerimetr());
     }
-
 }
-
