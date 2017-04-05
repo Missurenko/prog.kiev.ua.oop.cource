@@ -17,7 +17,7 @@ public class TriangleTest {
         assertEquals(20.736301954543396, triangle1.areaTriangle());
 
         Triangle triangle2 = new Triangle(8.9, 9.1, 4.3);
-        double areaTriangle = triangle2.areaTriangle();
+
         assertEquals(18.76942244050147, triangle2.areaTriangle());
         assertEquals("18.769", triangle2.areaTriangleTostring());
 
