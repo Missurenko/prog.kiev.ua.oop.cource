@@ -71,7 +71,7 @@ public class Main {
         }
         return location;
     }
-
+//
     private static Triangle setPointforTriangle(TreeMap location) {
         Triangle basictriangle = new Triangle();
         Set set = location.entrySet();
